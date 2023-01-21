@@ -45,4 +45,7 @@ public class Vehicle {
         System.out.println("stop method called - The vehicle is stopped");
     }
 
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
 }
