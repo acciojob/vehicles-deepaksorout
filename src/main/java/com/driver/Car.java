@@ -21,11 +21,11 @@ public class Car extends Vehicle {
 
     }
     public boolean isManual() {
-        return isManual;
+        return this.isManual;
     }
 
     public void changeGear(int newGear){
-        currentGear=newGear;
+        this.currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
     }
 
